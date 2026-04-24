@@ -71,7 +71,7 @@ def Requests_SPam(id):
 
 def GeT_Name(uid , Token):
     data = bytes.fromhex(EnC_AEs(f"08{EnC_Uid(uid , Tp = 'Uid')}1007"))
-    url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
+    url = "https://clientbp.ggpolarbear.com/GetPlayerPersonalShow"
     headers = {
         'X-Unity-Version': '2018.4.11f1',
         'ReleaseVersion': 'OB51',
@@ -80,7 +80,7 @@ def GeT_Name(uid , Token):
         'Authorization': f'Bearer {GeTToK()}',
         'Content-Length': '16',
         'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)',
-        'Host': 'clientbp.ggblueshark.com',
+        'Host': 'clientbp.ggpolarbear.com',
         'Connection': 'Keep-Alive',
         'Accept-Encoding': 'gzip'
     }
